@@ -1,6 +1,6 @@
 {
   "name": "docker_node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Docker docs tutorial - modified",
   "main": "server.js",
   "type": "module",
