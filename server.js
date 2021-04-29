@@ -7,5 +7,9 @@ server.use('/foo', (req, res) => {
   return res.json({foo: 'bar'})
 })
 
+server.use('/bar', (req, res) => {
+  return res.json({bar: 'baz'})
+})
+
 server.use('/', mocks.server(server.Router(), false, true))
 server.start()
